@@ -5,7 +5,7 @@
 package main
 
 import (
-	"bitbucket.org/kardianos/rsync"
+	"github.com/xiocode/rsync"
 
 	"bytes"
 	"crypto/md5"
@@ -17,7 +17,7 @@ import (
 	"os"
 	"strings"
 
-	"bitbucket.org/kardianos/rsync/proto"
+	"github.com/xiocode/rsync/proto"
 )
 
 var NoTargetSumError = errors.New("Checksum request but missing target hash.")

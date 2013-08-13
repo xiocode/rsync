@@ -2,12 +2,12 @@
 package proto
 
 import (
-	"bitbucket.org/kardianos/rsync"
-	"bitbucket.org/kardianos/rsync/sbuffer"
 	"compress/gzip"
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"github.com/xiocode/rsync"
+	"github.com/xiocode/rsync/sbuffer"
 	"io"
 )
 
